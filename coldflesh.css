@@ -1,0 +1,39 @@
+html { 
+  background: url('assets/redd-sW7Gir6CG_0-unsplash.jpg') no-repeat center center fixed #010101;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logo { 
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('assets/Coldflesh-12.png') no-repeat center center fixed;
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
+}
+
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  height: 100%;
+}
+.fa {
+  margin: 1vh;
+  padding: 3vh;
+  font-size: 3vh;
+  width: 3vh;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #011221;
+  color: white;
+}
