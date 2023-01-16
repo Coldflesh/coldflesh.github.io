@@ -22,18 +22,17 @@ html {
 #icons {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
   align-content: center;
-  height: 100vh;
 }
 .fa {
-  margin: 1vh;
-  padding: 3vh;
-  font-size: 3vh;
-  width: 3vh;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 2em;
+  width: 1em;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  background: #011221;
-  color: white;
+  background: white;
+  color: #011221;
 }
